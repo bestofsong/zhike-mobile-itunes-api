@@ -1,0 +1,19 @@
+{
+  "name": "zhike-mobile-itunes-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bestofsong/zhike-mobile-itunes-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bestofsong/zhike-mobile-itunes-api/issues"
+  },
+  "homepage": "https://github.com/bestofsong/zhike-mobile-itunes-api#readme"
+}

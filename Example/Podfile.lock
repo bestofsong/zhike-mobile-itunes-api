@@ -1,0 +1,16 @@
+PODS:
+  - zhike-mobile-itunes-api (0.1.0)
+
+DEPENDENCIES:
+  - zhike-mobile-itunes-api (from `../`)
+
+EXTERNAL SOURCES:
+  zhike-mobile-itunes-api:
+    :path: ../
+
+SPEC CHECKSUMS:
+  zhike-mobile-itunes-api: 9c55f0418304f541571570fb68f14bca5a5c94e1
+
+PODFILE CHECKSUM: 4c354b75b24c8d105e8c9b947869849dbf01013d
+
+COCOAPODS: 1.3.1
