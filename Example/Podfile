@@ -1,0 +1,6 @@
+use_frameworks!
+target 'zhike-mobile-itunes-api_Tests' do
+  pod 'zhike-mobile-itunes-api', :path => '../'
+  
+  
+end
