@@ -11,9 +11,10 @@
 @implementation ZKItunesApi
 RCT_EXPORT_MODULE();
 
-RCT_EXPORT_METHOD(getAppMeta:(NSString *)appId callback:(RCTResponseSenderBlock)callback) {
-  [SSItunesApi getAppMetaAppId:nil result:^(NSDictionary * _Nullable info) {
-    callback(info);
+RCT_EXPORT_METHOD(getAppMeta:(NSString * _Nullable)appId callback:(RCTResponseSenderBlock)callback) {
+  [SSItunesApi getAppMetaAppId:appId
+                        result:^(NSDictionary * _Nullable info) {
+    callback(@[[NSNull null], info]);
   }];
 }
 
